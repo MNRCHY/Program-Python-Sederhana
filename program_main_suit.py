@@ -1,3 +1,6 @@
+# Made By MNRCH
+# https://github.com/MNRCHY
+
 import random
 
 print ("")
