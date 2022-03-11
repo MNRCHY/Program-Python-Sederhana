@@ -8,7 +8,7 @@ print ("===========================")
 print ("====== Ayo Main Suit ======")
 print ("===========================")
 print ("")
-user_act = input ("Apa yang akan kamu pasang? (batu, gunting, kertas = ")
+user_act = input ("Apa yang akan kamu pasang? (batu, gunting, kertas) = ")
 choice = ["batu", "gunting", "kertas"]
 com_act = random.choice(choice)
 
@@ -16,6 +16,7 @@ print ("Kamu pasang ", {user_act}, "Lawan pasang", {com_act})
 
 if user_act == com_act:
     print ("hasilnya SERI, kedua pemain memilih ", {user_act})
+    print ("")
 
 elif user_act == "batu":
     if com_act == "gunting":
@@ -31,3 +32,6 @@ elif user_act == "gunting":
     if com_act == "kertas":
         print ("Wah kamu menang, lawan memilih ", {com_act})
     else: print ("Yah kamu kalah, lawan memilih ", {com_act})
+
+if user_act != "gunting, batu, kertas":
+    print ("hey...yang bener dong mainnya")
