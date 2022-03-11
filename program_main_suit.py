@@ -33,5 +33,3 @@ elif user_act == "gunting":
         print ("Wah kamu menang, lawan memilih ", {com_act})
     else: print ("Yah kamu kalah, lawan memilih ", {com_act})
 
-if user_act != "gunting, batu, kertas":
-    print ("hey...yang bener dong mainnya")
